@@ -21,6 +21,10 @@ _______________SPECIAL THANKS TO________________________________________________
  Gear up through levels and randomly generated rooms to experience a new thrill every time you enter the game.
  Reach the end and it will never end. Pick him up(you'll know how) and return to the spawing portal of level 1.
  
+ DECENT RETRO GRAPHICS
+ AWESOME MUSIC MADE WITH BXFR
+ DECENT STORYLINE AND GAMEPLAY
+ 
  To play just open main_game.py file and run it.....CHEERS
  
 --------------------------------------------|| You don't need to read this ||---------------------------------------------------------
