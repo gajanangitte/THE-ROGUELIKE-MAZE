@@ -635,26 +635,26 @@ class com_Creature:
                                 for obj in self.owner.container.equipped_items]
 
             for bonus in object_bonuses:
-                if bonus and total_power < 7:
+                if bonus and total_power < 5:
                     total_power += bonus
 
-        total_power = min(total_power, 6)
+        total_power = min(total_power, 5)
         return total_power
 
     @property
     def defense(self):
 
-        total_defense = min(self.base_def , 5)
+        total_defense = min(self.base_def , 4)
 
         if self.owner.container:
             object_bonuses = [obj.equipment.defense_bonus 
                                 for obj in self.owner.container.equipped_items]
 
             for bonus in object_bonuses:
-                if bonus and (total_defense < 5):
+                if bonus and (total_defense < 4):
                     total_defense += bonus
 
-        total_defense = min(total_defense , 5)
+        total_defense = min(total_defense , 4)
         return total_defense
 
 class com_Container:
@@ -2398,7 +2398,7 @@ def gen_snake_anaconda(coords):
 
     current_level = len(GAME.maps_previous) + 1
 
-    base_attack = libtcod.random_get_int(0, 4, 6) + (current_level)
+    base_attack = libtcod.random_get_int(0, 4, 7) + (current_level)
 
     max_health = libtcod.random_get_int(0, 5, 10) + (current_level)
 
