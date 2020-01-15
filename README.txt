@@ -8,7 +8,6 @@
 
   No copyright infringement intended
   ALL RIGHTS RESERVED WITH WARNER BROS. AND J K ROWLING
-NOTE: THIS IN NOT A ROGUELIKE
   
 _______________SPECIAL THANKS TO_______________________________________________________________________________
  1. ROGUEBASIN
